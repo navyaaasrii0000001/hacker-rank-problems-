@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+#include <string_view>
+using namespace std;
+
+int main(){
+  string name1="computer";//string store the value of the assigned name in the form of character 
+  string_view name2="laptop"; //string_view doesnt store te values in the form character ,it just check and then prints
+  cout<<name1<<"\n";
+  cout<<name2;
+  return 0;
+  }
